@@ -11,6 +11,7 @@
             padding: 0;
             height: 100vh;
             display: flex;
+            flex-direction: column;
             justify-content: center;
             align-items: center;
             position: relative;
@@ -55,6 +56,18 @@
             font-size: 40px;
             color: #ff0000; /* Red color for hearts */
         }
+
+        .names {
+            color: #fff;
+            font-size: 18px;
+            margin-top: 10px;
+        }
+
+        img {
+            width: 200px; /* Adjust the width as needed */
+            margin-top: 20px;
+            border-radius: 10px;
+        }
     </style>
 </head>
 <body>
@@ -65,10 +78,13 @@
 
     <div class="welcome-text">
         <p>WELCOME TO THE GAME</p>
+        <p class="names">Achraf, Abdelhamid, Taoufyq, Mohssine</p>
     </div>
 
     <div class="heart">❤️</div>
     <div class="heart">❤️</div>
     <div class="heart">❤️</div>
+
+    <img src="https://www.auxdelicesdupalais.net/wp-content/uploads/2017/05/DSC07459.jpg" alt="OFPPT">
 </body>
 </html>
